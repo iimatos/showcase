@@ -1,0 +1,7 @@
+.splide__arrow {
+  background: var(--b1);
+}
+
+.splide__arrow svg {
+  fill: var(--d1);
+}

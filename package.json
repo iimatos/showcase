@@ -1,0 +1,42 @@
+{
+  "name": "feltrin",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-order": "^1.2.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-stream": "^7.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "description": "",
+  "dependencies": {
+    "@splidejs/splide": "^4.0.1",
+    "@splidejs/splide-extension-video": "^0.7.1",
+    "css-loader": "^6.7.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0"
+  }
+}
