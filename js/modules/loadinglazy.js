@@ -1,9 +1,9 @@
 export default function lazy() {
   const lazyLoad = () => {
-    const lazyImages = document.querySelectorAll('img[data-src]');
+    const lazyImages = document.querySelectorAll("img[data-src]");
     const options = {
       root: null,
-      rootMargin: '0px',
+      rootMargin: "0px",
       threshold: 0.2,
     };
     const show = (entries) => {
@@ -16,10 +16,8 @@ export default function lazy() {
       });
     };
     const observer = new IntersectionObserver(show, options);
-    lazyImages.forEach((img) => [
-      observer.observe(img),
-    ]);
+    lazyImages.forEach((img) => [observer.observe(img)]);
   };
 
-  window.addEventListener('load', lazyLoad);
+  window.addEventListener("load", lazyLoad);
 }
