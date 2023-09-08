@@ -1,11 +1,11 @@
 export default function backRedirect() {
   const url = window.location.href;
-  const urlRedirect =
-    "https://go.tiowill.com.br/campaign/zeus-pv29-trial?utm_source=pv18&utm_medium=back_trial";
+  const redirectURL =
+    "https://tiowill.com.br/setup-zeus-pv29-of2/?src=9639f68efeb944ad881226297847b2fb&utm_source=pv18&utm_medium=back_trial";
 
   window.history.pushState(null, document.title, url);
   window.addEventListener("popstate", () => {
-    window.location.href = urlRedirect;
+    window.location.href = redirectURL;
   });
 }
 
